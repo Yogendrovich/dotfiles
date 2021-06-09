@@ -1,0 +1,11 @@
+require('lspconfig').bashls.setup({})
+require('lspconfig').cssls.setup({})
+require('lspconfig').gopls.setup({})
+require('lspconfig').html.setup({})
+require('lspconfig').jsonls.setup({})
+require('lspconfig').pyls.setup({})
+require('lspconfig').rust_analyzer.setup({})
+require('lspconfig').tsserver.setup({})
+require('lspconfig').yamlls.setup({})
+require('lspconfig').zls.setup({})
+
