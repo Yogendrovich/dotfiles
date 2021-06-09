@@ -54,4 +54,5 @@ paq('hrsh7th/vim-vsnip') -- snippets
 paq('hrsh7th/vim-vsnip-integ') -- vsnip integration for nvim-compe
 paq('mattn/emmet-vim') -- html/css snippets
 paq('crispgm/nvim-go') -- go dev
+paq('ziglang/zig') -- zig dev
 paq('rust-lang/rust.vim') -- rust lang support
