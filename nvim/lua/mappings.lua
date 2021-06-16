@@ -14,11 +14,6 @@ set_keymap('i', '<c-a>', '<Esc>I')
 set_keymap('i', '<c-e>', '<End>')
 set_keymap('n', 'k', 'gk')
 set_keymap('n', 'j', 'gj')
--- editing
-set_keymap('n', 'Y', 'y$')
-set_keymap('n', '<a-Up>', '<cmd>m .-2<cr>')
-set_keymap('n', '<a-Down>', '<cmd>m .+1<cr>')
-set_keymap('i', '<c-d>', '<Esc>ddi')
 -- splits
 set_keymap('n', '<leader>s', '<c-w>w')
 set_keymap('n', '<leader>j', '<c-w>j')
@@ -61,6 +56,7 @@ set_keymap('n', '<leader>ls', '<cmd>lua vim.lsp.buf.document_symbol()<cr>')
 set_keymap('n', '<leader>lS', '<cmd>lua vim.lsp.buf.workspace_symbol()<cr>')
 set_keymap('n', '<leader>lR', '<cmd>lua vim.lsp.buf.rename()<cr>')
 set_keymap('n', '<leader>lf', '<cmd>lua vim.lsp.buf.formatting()<cr>')
+set_keymap('n', '<leader>la', '<cmd>lua vim.lsp.buf.code_action()<cr>')
 
 -- comment
 nvim_set_keymap('i', '<c-/>', '<Esc><Plug>CommentaryLine', {})

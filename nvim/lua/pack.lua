@@ -26,7 +26,7 @@ paq('crispgm/nvim-tabline') -- tab line
 paq('dstein64/nvim-scrollview') -- scroll bar
 paq('editorconfig/editorconfig-vim') -- editorconfig support
 paq('Yggdroot/indentLine') -- indent line
-paq('lewis6991/gitsigns.nvim') -- git signs
+paq('lewis6991/gitsigns.nvim') -- git sigs
 
 -- edit
 paq('psliwka/vim-smoothie') -- smoothy scroll
