@@ -1,4 +1,5 @@
 require('telescope').load_extension('heading')
+require('telescope').load_extension('zk')
 
 local set_keymap = require('../common').set_keymap
 set_keymap(
@@ -10,6 +11,7 @@ set_keymap('n', '<c-p>', '<cmd>Telescope git_files<cr>')
 set_keymap('n', '<c-g>', '<cmd>Telescope live_grep<cr>')
 set_keymap('n', '<c-b>', '<cmd>Telescope buffers<cr>')
 set_keymap('n', '<c-l>', '<cmd>Telescope lsp_document_symbols<cr>')
+set_keymap('n', '<c-n>', "<cmd>lua require('telescope').extensions.zk.zk_notes()<cr>")
 
 local actions = require('telescope.actions')
 require('telescope').setup({

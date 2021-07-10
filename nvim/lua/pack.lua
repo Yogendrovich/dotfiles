@@ -56,3 +56,7 @@ paq('mattn/emmet-vim') -- html/css snippets
 paq('crispgm/nvim-go') -- go dev
 paq('ziglang/zig') -- zig dev
 paq('rust-lang/rust.vim') -- rust lang support
+
+-- notes
+paq("megalithic/zk.nvim")
+
