@@ -17,15 +17,12 @@ paq({
 -- file
 paq('mhinz/vim-startify') -- stardup page
 paq('nvim-telescope/telescope.nvim') -- fuzzy picker
-paq('crispgm/telescope-heading.nvim') -- markdown heading
 paq('akinsho/nvim-toggleterm.lua') -- terminal
 
 -- view
 paq('ojroques/nvim-hardline') -- status line
 paq('crispgm/nvim-tabline') -- tab line
 paq('dstein64/nvim-scrollview') -- scroll bar
-paq('editorconfig/editorconfig-vim') -- editorconfig support
-paq('Yggdroot/indentLine') -- indent line
 paq('lewis6991/gitsigns.nvim') -- git sigs
 
 -- edit
@@ -38,7 +35,6 @@ paq({
     branch = 'release/0.x',
 })
 paq('christoomey/vim-system-copy') -- copy to system clipboard
-paq('AndrewRadev/splitjoin.vim') -- split and join in vim
 paq('steelsojka/pears.nvim') -- auto symbol pairs
 
 -- language
@@ -54,9 +50,9 @@ paq('hrsh7th/vim-vsnip') -- snippets
 paq('hrsh7th/vim-vsnip-integ') -- vsnip integration for nvim-compe
 paq('mattn/emmet-vim') -- html/css snippets
 paq('crispgm/nvim-go') -- go dev
-paq('ziglang/zig') -- zig dev
 paq('rust-lang/rust.vim') -- rust lang support
 
--- notes
-paq("megalithic/zk.nvim")
+-- Debugger
+paq('puremourning/vimspector')
+paq('szw/vim-maximizer')
 

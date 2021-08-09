@@ -9,6 +9,7 @@ set_keymap('n', '<leader>w', '<cmd>wq!<cr>')
 set_keymap('n', '<leader>n', '<cmd>set nonumber norelativenumber<cr>')
 set_keymap('n', '<leader>N', '<cmd>set number<cr>')
 set_keymap('n', '<leader>R', '<cmd>set relativenumber<cr>')
+set_keymap('n', 'Y', 'y$')
 -- moving
 set_keymap('i', '<c-a>', '<Esc>I')
 set_keymap('i', '<c-e>', '<End>')
