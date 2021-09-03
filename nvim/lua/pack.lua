@@ -49,10 +49,10 @@ paq('hrsh7th/nvim-compe') -- completion
 paq('hrsh7th/vim-vsnip') -- snippets
 paq('hrsh7th/vim-vsnip-integ') -- vsnip integration for nvim-compe
 paq('mattn/emmet-vim') -- html/css snippets
-paq('crispgm/nvim-go') -- go dev
 paq('rust-lang/rust.vim') -- rust lang support
+paq('ray-x/go.nvim') -- go support
 
 -- Debugger
-paq('puremourning/vimspector')
-paq('szw/vim-maximizer')
-
+paq('mfussenegger/nvim-dap')
+paq('rcarriga/nvim-dap-ui')
+paq('theHamsta/nvim-dap-virtual-text')
